@@ -17,6 +17,7 @@ https://docs.google.com/spreadsheets/d/19NfqqyYNbH01P9dBhJ2wWUDEKfLPlkwLrprDJAhD
 Methodology
 
 1. Write a google query function as shown below:
+
 =QUERY('Company Proposal Tracker'!B1:T162,"
 SELECT dateDiff(date'"&TEXT(A39,"yyyy-MM-dd")&"',G),T, P, C, D, E, G, H, J, L, M,N,O, Q
 WHERE 
